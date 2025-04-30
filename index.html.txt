@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的录取信息</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 1px solid #eee;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 20px auto;
+            display: block;
+            border: 5px solid #ecf0f1;
+        }
+        section {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .admission-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        .detail-item {
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        @media (max-width: 600px) {
+            .admission-details {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>欢迎来到我的个人页面</h1>
+            <!-- 替换为你的照片 -->
+            <img src="https://via.placeholder.com/150" alt="个人照片" class="profile-img">
+            <p>你好！我是[你的名字]，很高兴认识你！</p>
+        </header>
+
+        <section id="about">
+            <h2>关于我</h2>
+            <p>我是一名[你的身份，如"高中毕业生"、"大学生"等]，来自[你的家乡或学校]。</p>
+            <p>我的兴趣爱好包括[你的兴趣爱好]，特别擅长[你的特长]。</p>
+            <p>在学习方面，我[描述你的学习特点或成就]。</p>
+            <p>我的座右铭是："[你的座右铭]"</p>
+        </section>
+
+        <section id="admission">
+            <h2>录取信息</h2>
+            <div class="admission-details">
+                <div class="detail-item">
+                    <h3>录取学校</h3>
+                    <p>[学校名称]</p>
+                </div>
+                <div class="detail-item">
+                    <h3>录取专业</h3>
+                    <p>[专业名称]</p>
+                </div>
+                <div class="detail-item">
+                    <h3>录取批次</h3>
+                    <p>[批次信息]</p>
+                </div>
+                <div class="detail-item">
+                    <h3>录取时间</h3>
+                    <p>[录取日期]</p>
+                </div>
+            </div>
+            <div style="margin-top: 20px;">
+                <h3>录取感言</h3>
+                <p>[在这里写下你的录取感言，可以包括你的心情、感谢的人、未来的计划等]</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>联系方式</h2>
+            <p>邮箱：[你的邮箱地址]</p>
+            <p>电话：[你的电话号码]</p>
+            <p>微信：[你的微信号]</p>
+            <!-- 可以添加更多社交媒体链接 -->
+        </section>
+
+        <footer>
+            <p>© 2023 [你的名字] - 个人录取信息页面</p>
+            <p>最后更新于：[更新日期]</p>
+        </footer>
+    </div>
+</body>
+</html>
